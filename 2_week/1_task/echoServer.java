@@ -27,13 +27,14 @@ public class echoServer {
 			if (s.equals("end")) {
 			System.out.println("From client: " + s);
 				break;
-				
+				}
 			
 			System.out.println("From client: " + s);
 			out.writeUTF(s);
 			out.flush();
 			
 		}
+		
 		System.out.println("closing connection");
 			out.writeUTF("Bye for now....");
 			out.flush();
@@ -43,4 +44,4 @@ public class echoServer {
 		}
 	}
 }
-}
+
