@@ -7,10 +7,12 @@ public class clientSocket {
     DataInputStream is = null;
     DataOutputStream out = null;
     int socket = 8421;
+    String Desktop = "192.168.0.125";
+    String laptop = "10.8.18.92";
     
   try {
     //client connection to the server
-    cliSocket = new Socket ("10.8.18.92", socket);
+    cliSocket = new Socket (Desktop, socket);
     System.out.println("connection with the server has been established.");
     
     //creating input and output streams
