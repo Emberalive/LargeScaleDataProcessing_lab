@@ -1,0 +1,24 @@
+Train 0 ready to enter section A-C at: 1730831959189
+Train 0 entering section A-C at: 1730831959197
+Train 0 Leaving section A-C at: 1730831960246
+Train 1 ready to enter section A-C at: 1730831960246
+Train 1 entering section A-C at: 1730831960246
+Train 0 entering section C-Z at: 1730831961292
+Train 1 Leaving section A-C at: 1730831961668
+Train 2 ready to enter section B-C at: 1730831961669
+Train 2 entering section B-C at: 1730831961669
+Train 2 Leaving section B-C at: 1730831962933
+Train 3 ready to enter section B-C at: 1730831962933
+Train 3 entering section B-C at: 1730831962934
+Train 0 Leaving Section C-Z at: 1730831963074
+Train 3 Leaving section B-C at: 1730831964120
+Train 0 Exit track clear at: 1730831964901
+Train 1 entering section C-Z at: 1730831964902
+Train 1 Leaving Section C-Z at: 1730831965546
+Train 1 Exit track clear at: 1730831966981
+Train 2 entering section C-Z at: 1730831966981
+Train 2 Leaving Section C-Z at: 1730831967548
+Train 2 Exit track clear at: 1730831968642
+Train 3 entering section C-Z at: 1730831968642
+Train 3 Leaving Section C-Z at: 1730831969548
+Train 3 Exit track clear at: 1730831970636

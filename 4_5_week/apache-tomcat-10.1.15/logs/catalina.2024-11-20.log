@@ -1,0 +1,282 @@
+20-Nov-2024 17:22:53.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+20-Nov-2024 17:22:53.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+20-Nov-2024 17:22:53.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+20-Nov-2024 17:22:53.453 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Nov-2024 17:22:53.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-48-generic
+20-Nov-2024 17:22:53.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Nov-2024 17:22:53.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-amd64
+20-Nov-2024 17:22:53.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+11-Ubuntu-1ubuntu124.04
+20-Nov-2024 17:22:53.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+20-Nov-2024 17:22:53.454 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:22:53.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:22:53.466 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/conf/logging.properties
+20-Nov-2024 17:22:53.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Nov-2024 17:22:53.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Nov-2024 17:22:53.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Nov-2024 17:22:53.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Nov-2024 17:22:53.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Nov-2024 17:22:53.467 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Nov-2024 17:22:53.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Nov-2024 17:22:53.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Nov-2024 17:22:53.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Nov-2024 17:22:53.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:22:53.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:22:53.468 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/temp
+20-Nov-2024 17:22:53.471 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+20-Nov-2024 17:22:53.828 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:22:53.846 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1015)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1010)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:247)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1280)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1293)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:624)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1013)
+		... 11 more
+20-Nov-2024 17:22:53.847 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [612] milliseconds
+20-Nov-2024 17:22:53.903 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Nov-2024 17:22:53.903 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+20-Nov-2024 17:22:53.914 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502]
+20-Nov-2024 17:22:54.282 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502] has finished in [368] ms
+20-Nov-2024 17:22:54.283 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT]
+20-Nov-2024 17:22:54.309 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT] has finished in [26] ms
+20-Nov-2024 17:22:54.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples]
+20-Nov-2024 17:22:54.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples] has finished in [275] ms
+20-Nov-2024 17:22:54.585 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager]
+20-Nov-2024 17:22:54.618 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager] has finished in [33] ms
+20-Nov-2024 17:22:54.619 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs]
+20-Nov-2024 17:22:54.639 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs] has finished in [20] ms
+20-Nov-2024 17:22:54.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager]
+20-Nov-2024 17:22:54.664 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager] has finished in [23] ms
+20-Nov-2024 17:22:54.668 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [819] milliseconds
+20-Nov-2024 17:23:00.931 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Nov-2024 17:23:00.940 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:23:00.940 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Nov-2024 17:23:00.967 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:23:00.969 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:32:19.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+20-Nov-2024 17:32:19.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+20-Nov-2024 17:32:19.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+20-Nov-2024 17:32:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Nov-2024 17:32:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-48-generic
+20-Nov-2024 17:32:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Nov-2024 17:32:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-amd64
+20-Nov-2024 17:32:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+11-Ubuntu-1ubuntu124.04
+20-Nov-2024 17:32:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+20-Nov-2024 17:32:19.244 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:32:19.245 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:32:19.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/conf/logging.properties
+20-Nov-2024 17:32:19.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Nov-2024 17:32:19.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Nov-2024 17:32:19.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Nov-2024 17:32:19.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Nov-2024 17:32:19.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Nov-2024 17:32:19.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Nov-2024 17:32:19.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Nov-2024 17:32:19.250 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Nov-2024 17:32:19.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Nov-2024 17:32:19.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:32:19.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:32:19.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/temp
+20-Nov-2024 17:32:19.253 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+20-Nov-2024 17:32:19.609 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:32:19.624 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1015)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1010)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:747)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:769)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:565)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:344)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:301)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:247)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:202)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1280)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1293)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:624)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1013)
+		... 11 more
+20-Nov-2024 17:32:19.626 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [594] milliseconds
+20-Nov-2024 17:32:19.671 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Nov-2024 17:32:19.671 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+20-Nov-2024 17:32:19.681 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502]
+20-Nov-2024 17:32:20.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502] has finished in [351] ms
+20-Nov-2024 17:32:20.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT]
+20-Nov-2024 17:32:20.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT] has finished in [30] ms
+20-Nov-2024 17:32:20.063 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples]
+20-Nov-2024 17:32:20.340 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples] has finished in [277] ms
+20-Nov-2024 17:32:20.341 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager]
+20-Nov-2024 17:32:20.368 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager] has finished in [28] ms
+20-Nov-2024 17:32:20.369 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs]
+20-Nov-2024 17:32:20.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs] has finished in [19] ms
+20-Nov-2024 17:32:20.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager]
+20-Nov-2024 17:32:20.415 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager] has finished in [26] ms
+20-Nov-2024 17:32:20.420 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [792] milliseconds
+20-Nov-2024 17:39:09.570 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Nov-2024 17:39:09.578 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:39:09.579 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Nov-2024 17:39:09.605 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:39:09.607 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:39:15.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+20-Nov-2024 17:39:15.542 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+20-Nov-2024 17:39:15.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+20-Nov-2024 17:39:15.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Nov-2024 17:39:15.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-48-generic
+20-Nov-2024 17:39:15.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Nov-2024 17:39:15.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-amd64
+20-Nov-2024 17:39:15.543 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+11-Ubuntu-1ubuntu124.04
+20-Nov-2024 17:39:15.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+20-Nov-2024 17:39:15.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:39:15.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:39:15.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/conf/logging.properties
+20-Nov-2024 17:39:15.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Nov-2024 17:39:15.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Nov-2024 17:39:15.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Nov-2024 17:39:15.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Nov-2024 17:39:15.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Nov-2024 17:39:15.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Nov-2024 17:39:15.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Nov-2024 17:39:15.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Nov-2024 17:39:15.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Nov-2024 17:39:15.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:39:15.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 17:39:15.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/temp
+20-Nov-2024 17:39:15.554 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+20-Nov-2024 17:39:15.898 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:39:15.933 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [606] milliseconds
+20-Nov-2024 17:39:15.985 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Nov-2024 17:39:15.986 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+20-Nov-2024 17:39:15.995 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502]
+20-Nov-2024 17:39:16.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502] has finished in [448] ms
+20-Nov-2024 17:39:16.444 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT]
+20-Nov-2024 17:39:16.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT] has finished in [31] ms
+20-Nov-2024 17:39:16.476 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples]
+20-Nov-2024 17:39:16.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples] has finished in [314] ms
+20-Nov-2024 17:39:16.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager]
+20-Nov-2024 17:39:16.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager] has finished in [39] ms
+20-Nov-2024 17:39:16.831 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs]
+20-Nov-2024 17:39:16.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs] has finished in [23] ms
+20-Nov-2024 17:39:16.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager]
+20-Nov-2024 17:39:16.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager] has finished in [29] ms
+20-Nov-2024 17:39:16.889 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 17:39:16.904 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [969] milliseconds
+20-Nov-2024 18:19:02.259 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+20-Nov-2024 18:19:02.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+20-Nov-2024 18:19:02.262 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+20-Nov-2024 18:19:02.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Nov-2024 18:19:02.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-48-generic
+20-Nov-2024 18:19:02.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Nov-2024 18:19:02.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-amd64
+20-Nov-2024 18:19:02.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+11-Ubuntu-1ubuntu124.04
+20-Nov-2024 18:19:02.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+20-Nov-2024 18:19:02.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 18:19:02.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 18:19:02.272 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/conf/logging.properties
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 18:19:02.273 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/temp
+20-Nov-2024 18:19:02.275 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+20-Nov-2024 18:19:02.478 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 18:19:02.500 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [366] milliseconds
+20-Nov-2024 18:19:02.539 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Nov-2024 18:19:02.539 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+20-Nov-2024 18:19:02.546 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502]
+20-Nov-2024 18:19:02.769 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502] has finished in [223] ms
+20-Nov-2024 18:19:02.770 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT]
+20-Nov-2024 18:19:02.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT] has finished in [15] ms
+20-Nov-2024 18:19:02.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples]
+20-Nov-2024 18:19:02.949 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples] has finished in [163] ms
+20-Nov-2024 18:19:02.950 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager]
+20-Nov-2024 18:19:02.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager] has finished in [21] ms
+20-Nov-2024 18:19:02.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs]
+20-Nov-2024 18:19:02.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs] has finished in [12] ms
+20-Nov-2024 18:19:02.984 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager]
+20-Nov-2024 18:19:02.997 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager] has finished in [12] ms
+20-Nov-2024 18:19:02.999 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 18:19:03.007 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [506] milliseconds
+20-Nov-2024 18:28:53.197 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+20-Nov-2024 18:28:53.198 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 18:28:53.200 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+20-Nov-2024 18:28:53.226 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 18:28:53.234 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 18:28:57.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+20-Nov-2024 18:28:57.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+20-Nov-2024 18:28:57.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+20-Nov-2024 18:28:57.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+20-Nov-2024 18:28:57.331 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-48-generic
+20-Nov-2024 18:28:57.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Nov-2024 18:28:57.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-amd64
+20-Nov-2024 18:28:57.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.5+11-Ubuntu-1ubuntu124.04
+20-Nov-2024 18:28:57.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+20-Nov-2024 18:28:57.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 18:28:57.332 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 18:28:57.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/conf/logging.properties
+20-Nov-2024 18:28:57.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Nov-2024 18:28:57.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Nov-2024 18:28:57.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+20-Nov-2024 18:28:57.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+20-Nov-2024 18:28:57.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+20-Nov-2024 18:28:57.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+20-Nov-2024 18:28:57.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+20-Nov-2024 18:28:57.333 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+20-Nov-2024 18:28:57.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+20-Nov-2024 18:28:57.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 18:28:57.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15
+20-Nov-2024 18:28:57.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/temp
+20-Nov-2024 18:28:57.335 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+20-Nov-2024 18:28:57.523 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 18:28:57.541 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [343] milliseconds
+20-Nov-2024 18:28:57.576 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+20-Nov-2024 18:28:57.576 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+20-Nov-2024 18:28:57.583 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502]
+20-Nov-2024 18:28:57.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ci502] has finished in [234] ms
+20-Nov-2024 18:28:57.818 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT]
+20-Nov-2024 18:28:57.835 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/ROOT] has finished in [17] ms
+20-Nov-2024 18:28:57.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples]
+20-Nov-2024 18:28:58.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/examples] has finished in [171] ms
+20-Nov-2024 18:28:58.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager]
+20-Nov-2024 18:28:58.031 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/manager] has finished in [24] ms
+20-Nov-2024 18:28:58.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs]
+20-Nov-2024 18:28:58.046 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/docs] has finished in [14] ms
+20-Nov-2024 18:28:58.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager]
+20-Nov-2024 18:28:58.062 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/samuel/Documents/2_Brighton/sem1/lab/LargeScaleDataProcessing/4_5_week/apache-tomcat-10.1.15/webapps/host-manager] has finished in [16] ms
+20-Nov-2024 18:28:58.065 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+20-Nov-2024 18:28:58.074 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [531] milliseconds
