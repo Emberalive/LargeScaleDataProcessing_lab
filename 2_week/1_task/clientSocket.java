@@ -1,5 +1,6 @@
 import java.io.*;
 import java.net.*;
+import java.util.Scanner;
 
 public class clientSocket {
   public static void main (String[] args) throws Exception{
@@ -7,6 +8,7 @@ public class clientSocket {
     DataInputStream is = null;
     DataOutputStream out = null;
     int socket = 8421;
+    Scanner scanner = new Scanner(System.in);
     String Desktop = "192.168.0.125";
     String laptop = "10.8.18.92";
     String port = "localhost";
@@ -20,8 +22,14 @@ public class clientSocket {
     is = new DataInputStream(cliSocket.getInputStream());
     out = new DataOutputStream(cliSocket.getOutputStream());
     
+    //read the users message and send it to the server
+  System.out.println("write a message for the server: ");
+  String uMessage = scanner.nextLine();
+  out.writeUTF(uMessage);
+
+
     //reading the message from the server
-    out.writeUTF("Hello Server, I am the client"); //this writes a message from to the server
+    //out.writeUTF("Hello Server, I am the client"); //this writes a message from to the server
     
     //reading the servers farewell message
     String serverGoodbye = is.readUTF(); // this receives the message from the server
