@@ -4,22 +4,22 @@ import java.net.*;
 public class echoServer {
 	public static void main (String [] args)throws Exception{
 		System.out.println("echo server is now online");
-		Socket = cliSocket = null;
-		ServerSocket = echoSocket = null;
-		DataInputStream = null;
-		DataOutputStream = null;
+		Socket cliSocket = null;
+		ServerSocket echoSocket = null;
+    DataInputStream is = null;
+    DataOutputStream out = null;
 		int port = 8421;
 		
 		echoSocket = new ServerSocket(port);
 		
 		while (true){
 			cliSocket = echoSocket.accept();
-			is = new DataInoputStream(cliSocket.ghetInpoutStream);
-			out = new DataOutputStream(cliSocket.getOutputStream);
-		}
+			is = new DataInputStream(cliSocket.getInputStream());
+			out = new DataOutputStream(cliSocket.getOutputStream());
+		
 		
 		System.out.println("connection with echo server has established");
-		out.writeUTF("Hello cliuent the connection with the echo server has been established");
+		out.writeUTF("Hello client the connection with the echo server has been established");
 		out.flush();
 		
 		String s;
@@ -28,7 +28,7 @@ public class echoServer {
 			System.out.println("From client: " + s);
 				break;
 				
-			}
+			
 			System.out.println("From client: " + s);
 			out.writeUTF(s);
 			out.flush();
@@ -42,3 +42,5 @@ public class echoServer {
 		cliSocket.close();
 		}
 	}
+}
+}
