@@ -9,10 +9,11 @@ public class clientSocket {
     int socket = 8421;
     String Desktop = "192.168.0.125";
     String laptop = "10.8.18.92";
+    String port = "localhost";
     
   try {
     //client connection to the server
-    cliSocket = new Socket (Desktop, socket);
+    cliSocket = new Socket (port, socket);
     System.out.println("connection with the server has been established.");
     
     //creating input and output streams
