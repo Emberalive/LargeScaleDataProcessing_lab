@@ -1,0 +1,104 @@
+06-Dec-2024 14:59:23.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.15
+06-Dec-2024 14:59:23.337 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 11 2023 23:38:40 UTC
+06-Dec-2024 14:59:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.15.0
+06-Dec-2024 14:59:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Dec-2024 14:59:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.0-49-generic
+06-Dec-2024 14:59:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Dec-2024 14:59:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-oracle
+06-Dec-2024 14:59:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.6+9-LTS-190
+06-Dec-2024 14:59:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Dec-2024 14:59:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15
+06-Dec-2024 14:59:23.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15
+06-Dec-2024 14:59:23.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/conf/logging.properties
+06-Dec-2024 14:59:23.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Dec-2024 14:59:23.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Dec-2024 14:59:23.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Dec-2024 14:59:23.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+06-Dec-2024 14:59:23.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+06-Dec-2024 14:59:23.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+06-Dec-2024 14:59:23.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+06-Dec-2024 14:59:23.348 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+06-Dec-2024 14:59:23.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+06-Dec-2024 14:59:23.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15
+06-Dec-2024 14:59:23.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15
+06-Dec-2024 14:59:23.349 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/temp
+06-Dec-2024 14:59:23.350 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+06-Dec-2024 14:59:23.539 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Dec-2024 14:59:23.558 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [366] milliseconds
+06-Dec-2024 14:59:23.597 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+06-Dec-2024 14:59:23.597 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.15]
+06-Dec-2024 14:59:23.605 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/host-manager]
+06-Dec-2024 14:59:23.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/host-manager] has finished in [210] ms
+06-Dec-2024 14:59:23.816 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/manager]
+06-Dec-2024 14:59:23.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/manager] has finished in [20] ms
+06-Dec-2024 14:59:23.836 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/examples]
+06-Dec-2024 14:59:24.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/examples] has finished in [170] ms
+06-Dec-2024 14:59:24.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/ci502]
+06-Dec-2024 14:59:24.021 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDirectory Error deploying web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/ci502]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:712)
+		at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1136)
+		at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1974)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:1046)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:428)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1659)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:309)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:845)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:240)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:795)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ci502]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:419)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:186)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: Invalid <url-pattern> [ci502/imgSrv] in servlet mapping
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3059)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:917)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1567)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1334)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:991)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:304)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4766)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		... 38 more
+06-Dec-2024 14:59:24.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/ci502] has finished in [17] ms
+06-Dec-2024 14:59:24.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/ROOT]
+06-Dec-2024 14:59:24.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/ROOT] has finished in [14] ms
+06-Dec-2024 14:59:24.038 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/docs]
+06-Dec-2024 14:59:24.053 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sammy/Documents/2_brighton/sem1/lab/LargeScaleDataProcessing_lab/4_5_week/apache-tomcat-10.1.15/webapps/docs] has finished in [15] ms
+06-Dec-2024 14:59:24.056 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+06-Dec-2024 14:59:24.066 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [507] milliseconds
+06-Dec-2024 15:03:10.655 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Dec-2024 15:03:10.655 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Dec-2024 15:03:10.657 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+06-Dec-2024 15:03:10.672 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Dec-2024 15:03:10.682 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
