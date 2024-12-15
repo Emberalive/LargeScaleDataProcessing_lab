@@ -22,7 +22,7 @@ usrbean.setEmail(email);
 usrbean.setPassword(password);
 
 request.setAttribute("mvcbean",usrbean);
-RequestDispatcher rd=request.getRequestDispatcher("valid_user.jsp");
+RequestDispatcher rd=request.getRequestDispatcher("/mvc/valid_user.jsp");
 rd.forward(request, response);
 }
 }

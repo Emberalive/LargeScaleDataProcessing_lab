@@ -1,6 +1,5 @@
 <HTML>
 <BODY>
-	<h1> this date thing does not work at all <h1>
 <%
 // This scriptlet declares and initializes "date"
 System.out.println( "Evaluating date now" );

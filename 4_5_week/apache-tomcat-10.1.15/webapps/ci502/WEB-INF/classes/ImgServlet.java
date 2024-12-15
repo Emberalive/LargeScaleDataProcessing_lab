@@ -7,14 +7,17 @@ import jakarta.servlet.http.*;
  *  text as with the HelloWorld servlet.
  */
 
-@WebServlet("ci502/imgSrv")
+@WebServlet("/imgSrv")
 public class ImgServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest request,
                     HttpServletResponse response)
       throws ServletException, IOException {
+      // resolving the file path dynamically
+      String filePath = getServletContext().getRealPath("/images.jpeg");
+      
       //create the in and output streams
-     try (FileInputStream fin = new FileInputStream("ci502/WEB-INF/images.jpg");
+     try (FileInputStream fin = new FileInputStream(filePath);
 	      BufferedInputStream bin = new BufferedInputStream(fin);
 	      OutputStream out = response.getOutputStream();
 	      BufferedOutputStream bout = new BufferedOutputStream(out)) {
@@ -28,7 +31,7 @@ public class ImgServlet extends HttpServlet {
       	  //because of the try and catch block i dont need to close the resources because they are closed when the try block is completed
       	 } catch (FileNotFoundException e){
       	 //handle the case where the image file is not found
-      	 response.sendError(HttpServletResponse.SC_NOT_FOUND, "image not found");
+      	 response.sendError(HttpServletResponse.SC_NOT_FOUND, "image not found looking in: " + filePath);
       	 } catch (IOException e){
       	 //handles general I/O errors
       	 response.sendError(HttpServletResponse.SC_INTERNAL_SERVER_ERROR, "Error serving the image");
